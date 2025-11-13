@@ -407,9 +407,9 @@ sudo apt install npm</code></pre>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
-<!-- wp:own/copy-code-line-block {"content":"pacman \u002d\u002dsync git\npacman \u002d\u002dsync npm"} -->
+<!-- wp:own/copy-code-line-block {"content":"pacman \u002d\u002dsync git\npacman \u002d\u002dsync mingw-w64-x86_64-nodejs"} -->
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>pacman --sync git
-pacman --sync npm</code></pre>
+pacman --sync mingw-w64-x86_64-nodejs</code></pre>
 <!-- /wp:own/copy-code-line-block -->
 
 <!-- wp:heading {"level":4} -->
