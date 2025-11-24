@@ -73,7 +73,12 @@ hello npm command world</code></pre>
 
 
 <div class="wp-block-group">
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/npm_default
+<h4 class="wp-block-heading">macports</h4>
+
+
+
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/npm_default
 cd npm_default
 cd workDirectory_npm_default
 npm init -y
@@ -181,13 +186,13 @@ hello npm command world</code></pre>
 
 <div class="wp-block-group">
 <p>以下のコマンドを端末に打ち込んでcommand not foundが出なければokです</p>
-</div>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git --version
 npm --version
 node --version</code></pre>
+</div>
 
 
 
@@ -197,12 +202,12 @@ node --version</code></pre>
 
 <div class="wp-block-group">
 <p>端末にcommand not foundが出たコマンドを以下のコマンドでインストールしてください</p>
-</div>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo apt install git
 sudo apt install npm</code></pre>
+</div>
 
 
 
@@ -252,11 +257,9 @@ hello npm command world</code></pre>
 
 <div class="wp-block-group">
 <p>以下のコマンドをターミナルに打ち込んでcommand not foundが出なければokです</p>
-</div>
 
 
 
-<div class="wp-block-group">
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
 git --version
 npm --version
@@ -283,7 +286,6 @@ node --version</code></pre>
 
 <div class="wp-block-group">
 <p>ターミナルでcommand not foundが出たコマンドを以下のコマンドでインストールしてエイリアスを設定してください</p>
-</div>
 
 
 
@@ -292,6 +294,7 @@ echo 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias
 sudo port install npm10
 echo 'alias npm="/opt/local/bin/npm"' >> ~/bashrc_folder/macports_alias
 echo 'alias node="/opt/local/bin/node"' >> ~/bashrc_folder/macports_alias</code></pre>
+</div>
 
 
 
@@ -304,7 +307,8 @@ echo 'alias node="/opt/local/bin/node"' >> ~/bashrc_folder/macports_alias</code>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/npm_default
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/npm_default
 cd npm_default
 cd workDirectory_npm_default
 npm init -y
@@ -396,12 +400,12 @@ sudo apt install npm</code></pre>
 
 
 <h5 class="wp-block-heading">MSYS2 MINGW64</h5>
-</div>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>pacman --sync git
 pacman --sync mingw-w64-x86_64-nodejs</code></pre>
+</div>
 
 
 
@@ -483,8 +487,4 @@ hello npm command world</code></pre>
 
 <div class="wp-block-group">
 <p>npm init -yの-yで全ての選択をyesにして、生成されたpackage.jsonのscriptsキーに定義されているtestコマンドを実行します<br>またpackage.jsonのmainキーに指定されたindex.jsの挙動を確認するために、install_npm_defaultパッケージをインストール後、index.jsを実行しています</p>
-
-
-
-<p></p>
 </div>
